@@ -1,0 +1,43 @@
+{
+    "manifest_version": 3,
+    "name": "Confidence Crew",
+    "version": "1.1.0",
+    "description": "Boost your self-confidence with daily word puzzles and multilingual affirmations.",
+    "icons": {
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icons/icon128.png"
+      },
+      "default_title": "Confidence Crew - Crossword Puzzle with Affirmations"
+    },
+    "permissions": [
+      "storage",
+      "alarms",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "data/words.json",
+          "data/affirmations_ar.json",
+          "data/affirmations_de.json",
+          "data/affirmations_es.json",
+          "data/affirmations_fr.json",
+          "data/affirmations_gu.json",
+          "data/affirmations_hi.json",
+          "data/affirmations_pt.json",
+          "data/affirmations_zh.json",
+          "data/affirmations_en.json"
+        ],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confidence Crew - Word Puzzle Game</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="icon" href="icons/icon128.png" type="image/png">
+</head>
+<body style="width: 600px; height: 800px;">
+    <div id="app">
+        <header>
+            <h1>Confidence Crew</h1>
+            <div class="stats-container">
+                <div class="stat-box">Score: <span id="score">0</span></div>
+                <div class="stat-box">Level: <span id="level">1</span></div>
+            </div>
+        </header>
+        <main class="main-content">
+            <section id="word-section">
+                <h2>Find this word:</h2>
+                <div id="current-word"></div>
+            </section>
+            <div id="puzzle-wrapper">
+                <div id="puzzle-container"></div>
+            </div>
+            <div id="feedback" aria-live="polite"></div>
+            <div class="controls">
+                <button id="next-word-btn">Next Word</button>
+                <button id="reset-game-btn">Reset Game</button>
+            </div>
+        </main>
+        <section id="premium-section" class="hidden">
+            <h3>Premium Features</h3>
+            <p>Get daily affirmations to boost your confidence!</p>
+            <button id="affirmation-btn">Get Daily Affirmation</button>
+            <div id="daily-affirmation"></div>
+        </section>
+        <button id="upgrade-btn">Upgrade to Premium</button>
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
+            <option value="gu">ગુજરાતી</option>
+            <option value="hi">हिन्दी</option>
+            <option value="pt">Português</option>
+            <option value="zh">中文</option>
+        </select>
+    </div>
+    <div id="loading-spinner" class="hidden">
+        <div class="spinner"></div>
+        <p>Loading your puzzle...</p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
+
+
+
