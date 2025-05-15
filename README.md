@@ -1,51 +1,67 @@
-# confidencecrew
-Chrome extension offering daily word puzzles and multilingual affirmations for mental wellness
 # Confidence Crew
 
-**Boost your self-confidence with daily word puzzles and multilingual affirmations.**
+Chrome extension offering daily word puzzles and multilingual affirmations for mental wellness.
 
-Confidence Crew is a Chrome extension that turns idle browser time into meaningful self-care. Whether you’re taking a break from work, seeking a moment of clarity, or helping a child build inner strength, Confidence Crew offers mindful entertainment and global inspiration.
-
----
-
-##  What It Does
-
-- **Daily Word Puzzles**  
-  Adaptive, fun challenges that grow with your skill level — relax, recharge, and strengthen your focus.
-
-- **Multilingual Affirmations** (Premium)  
-  Get uplifting affirmations in 9 languages:  
-  English, Spanish, French, German, Arabic, Gujarati, Hindi, Portuguese, and Chinese.
-
-- **Minimalist, Mindful Design**  
-  An interface for a focused, distraction-free experience.
-
-- **Ad-Free (Premium)**  
-  For uninterrupted peace while solving and reflecting.
+[→ Install on Chrome Web Store](https://chromewebstore.google.com/detail/confidence-crew/docobokckdlpmmbangleoaabeoikgogh)
 
 ---
 
-##  Who It's For
+## What Is Confidence Crew
 
-- Parents and children looking to build resilience and self-talk  
-- Students seeking calm and focus between tasks  
-- Anyone who enjoys word puzzles with a purpose
+Confidence Crew is a Chrome extension that turns idle browser time into moments of self-care. Whether you're taking a mindful break during your workday or helping a child build confidence through repetition and challenge, this extension offers a relaxing, brain-boosting experience — one word and one affirmation at a time.
 
 ---
 
-##  Premium Features
+## Key Features
 
-- Access daily multilingual affirmations  
-- Unlock bonus puzzles  
+### Daily Word Puzzles
+Relax, recharge, and challenge your brain with adaptive puzzles that increase in complexity as you improve.
+
+### Multilingual Affirmations (Premium)
+Receive uplifting, confidence-building affirmations in nine languages:
+- English
+- Spanish
+- French
+- German
+- Arabic
+- Gujarati
+- Hindi
+- Portuguese
+- Chinese
+
+### Mindful, Minimalist Design
+A clean and calming interface encourages focus and emotional reset.
 
 ---
 
-##  Built With
+## Who It's For
+
+- Parents and children looking to build emotional resilience through play  
+- Students who want mindful breaks to reset and refocus  
+- Anyone who enjoys purposeful word games and gentle encouragement
+
+---
+
+## Premium Unlock Includes
+
+- Daily rotating affirmation
+- Bonus word puzzles
+
+---
+
+## Built With
 
 - JavaScript, HTML, CSS  
 - Chrome Extensions API (Manifest v3)  
-- LocalStorage persistence  
-- Internationalization via `_locales` (planned)
+- LocalStorage for persistence  
+- Planned internationalization via `_locales`
 
 ---
+
+## Installation
+
+Install directly from the Chrome Web Store:  
+[https://chromewebstore.google.com/detail/confidence-crew/docobokckdlpmmbangleoaabeoikgogh](https://chromewebstore.google.com/detail/confidence-crew/docobokckdlpmmbangleoaabeoikgogh)
+
+![Confidence Crew Logo](confidencecrew.png)
 
